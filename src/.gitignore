@@ -478,3 +478,11 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# content below from: JetBrains Rider.gitignore
+# Rider
+.idea/
+
+# content below from: User
+# User-specific files
+.[Aa]rtifacts/
