@@ -1,0 +1,1 @@
+﻿namespace Frank.Games.SpaceLaneTycoon;

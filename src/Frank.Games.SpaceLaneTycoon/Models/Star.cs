@@ -18,7 +18,7 @@ public class Star
     public decimal Mag { get; set; }
     public decimal Absmag { get; set; }
     public string? Spect { get; set; }
-    public string Ci { get; set; }
+    public decimal? Ci { get; set; }
     public decimal X { get; set; }
     public decimal Y { get; set; }
     public decimal Z { get; set; }

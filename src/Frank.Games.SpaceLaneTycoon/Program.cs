@@ -20,7 +20,6 @@ var builder = Host.CreateDefaultBuilder(args)
         services.AddSingleton<Assets>();
         services.AddSingleton<StarCache>();
         
-        services.AddSingleton<MainWindow>();
         services.AddHostedService<WindowHost>();
     });
 

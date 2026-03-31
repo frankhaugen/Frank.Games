@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Worker">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <OutputType>Exe</OutputType>
         <UserSecretsId>dotnet-Frank.Games.FourInARow-38B3D35D-0A13-46F0-96F1-32F42669D6D6</UserSecretsId>
     </PropertyGroup>

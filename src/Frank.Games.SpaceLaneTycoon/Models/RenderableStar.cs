@@ -6,7 +6,7 @@ namespace Frank.Games.SpaceLaneTycoon.Mapping;
 public class RenderableStar
 {
     public int Id { get; set; }
-    public Vector3 Postition { get; set; }
+    public Vector3 Position { get; set; }
     public string? Name { get; set; }
     public SpectralClassification SpectralClassification { get; set; }
     public Color Color { get; set; }
@@ -36,7 +36,7 @@ public class RenderableStar
                  #version 330 core
                  void main()
                  {
-                     gl_Position = vec4({{Postition.X}}, {{Postition.Y}}, {{Postition.Z}}, 1.0);
+                     gl_Position = vec4({{Position.X}}, {{Position.Y}}, {{Position.Z}}, 1.0);
                  }
                  """;
         // Console.WriteLine(shader);
